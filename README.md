@@ -1,15 +1,17 @@
-# Welcome to S3 Cloudfront IAC project🚀
+## Welcome to S3 Cloudfront IAC project🚀
 
-# This project is developed to help anyone who wants to create S3 and Cloudfront resources through IAC(Infrastructure as Code) for the AWS Application to serve content😃
+## This project is developed to help anyone who wants to create S3 and Cloudfront resources through IAC(Infrastructure as Code) for the AWS Application to serve content😃
 
-# The project was developed on AWS CDK V2 in typescript language with help of AWS Documentation🤓
+## The project was developed on AWS CDK V2 in typescript language with help of AWS Documentation🤓
 Refer here for AWS Documentation on 
 S3 Bucket https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_s3-readme.html
 Cloudfront https://docs.aws.amazon.com/cdk/api/v2/docs/aws-cdk-lib.aws_cloudfront-readme.html
 
-# Steps to follow pre-deployment 👇🏻
-1. Get the ID of the Web ACL you want to attach with Cloudfront distribution. Web Access Control List (web ACL) gives you fine-grained control over all of the HTTP(S) web requests that your protected resource responds to.
+## Steps to follow pre-deployment 👇🏻
+1. (Optional) Get the ID of the Web ACL you want to attach with Cloudfront distribution. Web Access Control List (web ACL) gives you fine-grained control over all of the HTTP(S) web requests that your protected resource responds to.
 Add the ID of the Web ACL in /lib/cloudfront-stack.ts on line 131.
+
+Note: To create a Web ACL you can refer here [WAF IaC](https://medium.com/@agammishra05/waf-web-application-firewall-iac-for-application-load-balancers-1ae2cf43077f)
 
   
 # Steps to follow for deployment👇🏻
